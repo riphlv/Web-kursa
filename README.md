@@ -8,5 +8,5 @@ Date: March 8, 2019 <br>
 ## TODO
 - [ ] Backend in NodeJs, data CRUD + search functionality
 - [ ] Angular frontend
-- [ ] Database is recommended MongoDB
+- [x] Database is recommended MongoDB
 - [ ] Style described in SASS, has at least 2 size styles (media query for phone version and for desktop)
