@@ -1,0 +1,34 @@
+{
+  "name": "web-kursa",
+  "version": "1.0.0",
+  "description": "bird map app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "cors": "*",
+    "bcryptjs": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riphlv/Web-kursa.git"
+  },
+  "keywords": [
+    "bird",
+    "map"
+  ],
+  "author": "Artis Pauzers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riphlv/Web-kursa/issues"
+  },
+  "homepage": "https://github.com/riphlv/Web-kursa#readme"
+}
