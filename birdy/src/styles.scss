@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.defaultBG {
+  background-image: linear-gradient(#bfff36, #cfff69);
+  background-repeat: no-repeat;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

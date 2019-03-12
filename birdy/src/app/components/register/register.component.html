@@ -1,0 +1,10 @@
+<form (submit)="onRegisterSubmit()">
+  <h2 class="formTitle">Register</h2>
+  <div class="formElement">
+    <input placeholder="Username" type="text" class="formElements" [(ngModel)]="username" name="username">
+  </div>
+  <div class="formElement">
+    <input placeholder="Password" type="text" class="formElements" [(ngModel)]="password" name="password">
+  </div>
+  <input type="submit" class="formElements" value="Submit">
+</form>
