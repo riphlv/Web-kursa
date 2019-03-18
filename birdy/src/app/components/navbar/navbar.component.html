@@ -2,8 +2,9 @@
   <div>
     <ul>
       <li><a :[routerLink]="['/']">Home</a></li>
-      <li><a :[routerLink]="['/login']">Login</a></li>
-      <li><a :[routerLink]="['/register']">Register</a></li>
+      <li class="rightSide" *ngIf="!authService.loggedIn()"><a :[routerLink]="['/register']">Register</a></li>
+      <li class="rightSide" *ngIf="!authService.loggedIn()"><a :[routerLink]="['/login']">Login</a></li>
+      <li class="rightSide" *ngIf="authService.loggedIn()"><a href="#" (click)="onLogoutClick()">Logout</a></li>
     </ul>
   </div>
 </nav>
