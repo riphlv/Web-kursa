@@ -1,6 +1,7 @@
 import { Injectable, NgModule } from '@angular/core';
 import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { tokenKey } from '@angular/core/src/view';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -9,12 +10,12 @@ export class AuthService {
   authToken: any;
   user: any;
   constructor(private http: HttpClient) { }
-  registerUser(user) {
+  registerUser(user): Observable<any> {
     const headers = new HttpHeaders().set('Content-Type', 'application/json');
     const options = { headers: headers };
     return this.http.post('http://localhost:8080/users/register', user, options);
   }
-  authUser(user) {
+  authUser(user): Observable<any> {
     const headers = new HttpHeaders().set('Content-Type', 'application/json');
     const options = { headers: headers };
     return this.http.post('http://localhost:8080/users/auth', user, options);

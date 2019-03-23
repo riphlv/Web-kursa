@@ -4,7 +4,9 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const passport = require('passport');
 const mongoose = require('mongoose');
-const config = require('./config/db')
+const config = require('./config/db');
+const mappy = require('./models/mapModel');
+
 
 // Connection to DB
 mongoose.connect(config.database, {

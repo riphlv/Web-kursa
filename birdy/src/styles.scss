@@ -1,11 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-.defaultBG {
+/* .defaultBG {
   background-image: linear-gradient(#bfff36, #cfff69);
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-}
+} */
 
-html {
+html,
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
 }

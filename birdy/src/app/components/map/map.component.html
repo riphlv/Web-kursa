@@ -1,0 +1,15 @@
+<style>
+  p {
+    border-width: 1px;
+    border-style: dotted;
+    border-color: black;
+    min-height: 10px;
+  }
+
+</style>
+<p>
+  {{streetMaps.minZoom}}
+</p>
+<div class="map" leaflet [leafletOptions]="options" [leafletLayersControl]="layersControl"
+  (leafletMapReady)="onMapReady($event)">
+</div>

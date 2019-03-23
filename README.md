@@ -5,8 +5,8 @@ Name: Artis Pauzers <br>
 School: Ventspils Augstskola <br>
 Course: Tīmekļa lapu programmēšana <br>
 Date: March 8, 2019 <br>
-## TODO
-- [ ] Backend in NodeJs, data CRUD + search functionality
-- [ ] Angular frontend
+## REQUIRED
+- [x] Backend in NodeJs, data CRUD + search functionality
+- [x] Angular frontend
 - [x] Database is recommended MongoDB
-- [ ] Style described in SASS, has at least 2 size styles (media query for phone version and for desktop)
+- [x] Style described in SASS, has at least 2 size styles (media query for phone version and for desktop)
